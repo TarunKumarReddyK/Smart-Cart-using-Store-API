@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce-About</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="About.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">Ecommerce</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- Login, Register and Cart -->
+          <div class="d-flex gap-3">
+            <a href="Contact.html" class="btn btn-outline-secondary">
+              <i class="fas fa-sign-in-alt"></i> Login
+            </a>
+            <a href="Contact.html" class="btn btn-outline-secondary">
+              <i class="fas fa-user-plus"></i> Register
+            </a>
+            <a href="cart.html" class="btn btn-outline-secondary">
+              <i class="fas fa-shopping-cart"></i> Cart (0)
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="about_us">About Us</div>
+    <hr />
+
+    <div>
+      <p class="about_para">
+        This E-commerce website project is designed to provide a seamless online
+        shopping experience, showcasing various products across categories such
+        as men’s clothing, women’s clothing, jewelry, and electronics. Built
+        using HTML, CSS, and Bootstrap, the website is fully responsive,
+        ensuring accessibility on both desktop and mobile devices. Key features
+        include dynamic product displays that leverage a mock API to fetch data,
+        user-friendly navigation through a well-structured collapsible navbar,
+        and filtering buttons for easy category selection. The clean and modern
+        aesthetic is achieved by combining Bootstrap components with custom CSS,
+        enhancing the user interface and user experience. Interactive elements
+        like hover effects on product cards further engage users, while
+        accessibility features ensure that the site is usable for everyone. This
+        project not only demonstrates fundamental web development skills but
+        also serves as a solid foundation for creating a more complex E-commerce
+        solution, showcasing the potential of modern web applications.
+      </p>
+    </div>
+    <div style="font-size: 30px; text-align: center">Our Products</div>
+  <br>
+    <div class="pictures d-flex mt-5" class="product_imgs">
+      <div class="col-md-3 mb-4">
+        <figure class="figure figure-border">
+          <img
+            src="./Assests/Mens Shopping.png"
+            class="figure-img img-fluid rounded"
+            alt="Image 1"
+            style="max-width: 80%; height: auto"
+          />
+          <figcaption class="figure-caption">Mens Shopping</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-3 mb-4">
+        <figure class="figure figure-border">
+          <img
+            src="./Assests/Wome's Shopping.png"
+            class="figure-img img-fluid rounded"
+            alt="Image 2"
+            style="max-width: 80%; height: auto"
+          />
+          <figcaption class="figure-caption">women’s Shopping</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-3 mb-4">
+        <figure class="figure figure-border">
+          <img
+            src="./Assests/Jewelery.png"
+            class="figure-img img-fluid rounded"
+            alt="Image 3"
+            style="max-width: 80%; height: auto"
+          />
+          <figcaption class="figure-caption">Jewelery</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-3 mb-4">
+        <figure class="figure figure-border">
+          <img
+            src="./Assests/Electronics.png"
+            class="figure-img img-fluid rounded"
+            alt="Image 4"
+            style="max-width: 80%; height: auto"
+          />
+          <figcaption class="figure-caption">Electronics</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="love-container">
+      Made with <span style="color: red">❤️ </span>
+      <span>by Tarun in Association with AchieversIT</span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
