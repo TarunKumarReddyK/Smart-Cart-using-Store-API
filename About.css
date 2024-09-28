@@ -1,0 +1,73 @@
+/* Body styling */
+body {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    font-family: Arial, sans-serif; /* Modern font for readability */
+}
+
+/* About Us section styling */
+.about_us {
+    display: flex;
+    justify-content: center; /* Center the text */
+    font-size: 30px; /* Larger font size for visibility */
+    margin-top: 30px; /* Space above the section */
+}
+
+/* About paragraph styling */
+.about_para {
+    font-size: 25px; /* Font size for the paragraph */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Font family */
+    text-align: center; /* Center the paragraph text */
+    margin: 20px; /* Margin around the paragraph */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Love container styling */
+.love-container {
+    text-align: center; /* Center text */
+    font-size: 20px; /* Font size for the love message */
+    margin-top: 10px; /* Space above the love container */
+}
+
+/* Figure caption styling */
+.figure-caption {
+    color: rgb(127, 127, 127); /* Gray color for captions */
+    font-size: 20px; /* Font size for captions */
+    text-align: center; /* Center caption text */
+    padding: 10px 0; /* Padding above and below the caption */
+}
+
+/* Styling for product images */
+.pictures {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of product images */
+    justify-content: center; /* Center images */
+    margin: 20px auto; /* Center container */
+}
+
+/* Style for each figure */
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .figure {
+        max-width: calc(100% - 20px); /* 2 figures in a row for medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .figure {
+        max-width: 100%; /* 1 figure per row for small screens */
+    }
+}
+
+/* Additional styling for buttons in the navbar */
+.btn-outline-secondary {
+    border-color: #ccc; /* Button border color */
+    color: #333; /* Button text color */
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e9ecef; /* Light background color on hover */
+    color: #333; /* Text color on hover */
+}
