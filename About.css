@@ -1,73 +1,73 @@
-/* Body styling */
+
 body {
     padding: 20px;
-    background-color: #f8f9fa; /* Light background for contrast */
-    font-family: Arial, sans-serif; /* Modern font for readability */
+    background-color: #f8f9fa; 
+    font-family: Arial, sans-serif; 
 }
 
-/* About Us section styling */
+
 .about_us {
     display: flex;
-    justify-content: center; /* Center the text */
-    font-size: 30px; /* Larger font size for visibility */
-    margin-top: 30px; /* Space above the section */
+    justify-content: center; 
+    font-size: 30px; 
+    margin-top: 30px; 
 }
 
-/* About paragraph styling */
+
 .about_para {
-    font-size: 25px; /* Font size for the paragraph */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Font family */
-    text-align: center; /* Center the paragraph text */
-    margin: 20px; /* Margin around the paragraph */
-    line-height: 1.5; /* Increase line height for readability */
+    font-size: 25px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center; 
+    margin: 20px; 
+    line-height: 1.5; 
 }
 
-/* Love container styling */
+
 .love-container {
-    text-align: center; /* Center text */
-    font-size: 20px; /* Font size for the love message */
-    margin-top: 10px; /* Space above the love container */
+    text-align: center; 
+    font-size: 20px; 
+    margin-top: 10px; 
 }
 
-/* Figure caption styling */
+
 .figure-caption {
-    color: rgb(127, 127, 127); /* Gray color for captions */
-    font-size: 20px; /* Font size for captions */
-    text-align: center; /* Center caption text */
-    padding: 10px 0; /* Padding above and below the caption */
+    color: rgb(127, 127, 127); 
+    font-size: 20px; 
+    text-align: center; 
+    padding: 10px 0; 
 }
 
-/* Styling for product images */
+
 .pictures {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping of product images */
-    justify-content: center; /* Center images */
-    margin: 20px auto; /* Center container */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 20px auto; 
 }
 
-/* Style for each figure */
 
 
-/* Responsive adjustments */
+
+
 @media (max-width: 768px) {
     .figure {
-        max-width: calc(100% - 20px); /* 2 figures in a row for medium screens */
+        max-width: calc(100% - 20px); 
     }
 }
 
 @media (max-width: 576px) {
     .figure {
-        max-width: 100%; /* 1 figure per row for small screens */
+        max-width: 100%; 
     }
 }
 
-/* Additional styling for buttons in the navbar */
+
 .btn-outline-secondary {
-    border-color: #ccc; /* Button border color */
-    color: #333; /* Button text color */
+    border-color: #ccc; 
+    color: #333; 
 }
 
 .btn-outline-secondary:hover {
-    background-color: #e9ecef; /* Light background color on hover */
-    color: #333; /* Text color on hover */
+    background-color: #e9ecef; 
+    color: #333; 
 }
