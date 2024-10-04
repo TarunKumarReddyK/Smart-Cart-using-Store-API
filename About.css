@@ -15,8 +15,8 @@ body {
 
 
 .about_para {
-    font-size: 25px; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center; 
     margin: 20px; 
     line-height: 1.5; 
@@ -39,6 +39,23 @@ body {
     /* border: 2px solid green; */
 }
 
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex {
+    justify-content: flex-end;
+}
+.navbar-nav .navbar-brand {
+    color: rgb(72, 71, 71);
+}
+
+
 
 .pictures {
     display: flex;
@@ -47,7 +64,9 @@ body {
     margin: 20px auto; 
 }
 
-
+.navbar-gap{
+    border:2px solid greenyellow;
+}
 
 
 

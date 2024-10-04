@@ -64,3 +64,68 @@ body {
   .item-price p {
     margin: 0;
   }
+
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .d-flex {
+    justify-content: flex-end;
+  }
+  
+  .d-flex a.btn {
+    padding: 0px 1px;
+    font-size: 14px;
+  }
+  
+  .d-flex a.btn i {
+    margin-right: 2px;
+  }
+  .contents {
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  h3.text-white {
+    color: white;
+    font-size: 20px;
+  }
+  #cartCount {
+    display: inline-block;
+    margin-left: 8px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    top: 8px; 
+  }
+
+.d-flex a.btn {
+  padding: 8px 12px; 
+  font-size: 14px;
+}
+
+.d-flex a.btn i {
+  margin-right: 4px;
+}
+
+#cartCount {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  position: relative;
+  top: 0px; 
+}
